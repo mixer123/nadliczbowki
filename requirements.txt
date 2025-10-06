@@ -1,0 +1,5 @@
+sstreamlit
+pandas 
+numpy
+reportlab
+streamlit-aggrid
