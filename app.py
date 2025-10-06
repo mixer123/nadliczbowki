@@ -63,8 +63,18 @@ state_key = f"df_{year_}_{month_}"
 # -------------------------
 def create_week_df(pensum_default):
     dates, weekdays, przydzial, pensum , wyplata_ = [], [], [], [], []
+    dni_tygodnia = {
+    "Monday": "Poniedziałek",
+    "Tuesday": "Wtorek",
+    "Wednesday": "Środa",
+    "Thursday": "Czwartek",
+    "Friday": "Piątek",
+    "Saturday": "Sobota",
+    "Sunday": "Niedziela"
+}
+
     for d in workdays:
-        day_name = d.strftime("%A").capitalize()
+        day_name = dni_tygodnia[d.strftime("%A")]
         date_str = d.strftime("%Y-%m-%d")
         dates.append(date_str)
         weekdays.append(day_name)
