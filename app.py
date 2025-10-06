@@ -12,7 +12,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 
 # 🔤 Ustawienia polskich znaków
-locale.setlocale(locale.LC_TIME, "pl_PL.UTF-8")
+# locale.setlocale(locale.LC_TIME, "pl_PL.UTF-8")
 pdfmetrics.registerFont(TTFont('DejaVuSans', 'DejaVuSans.ttf'))
 
 # -------------------------
