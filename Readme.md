@@ -1,12 +1,31 @@
-To jest skrypt do wyznaczania ilości godzin nadliczbowych.
-Instrukcja
-1) Podaj imię i nazwisko
-2) Wybieramy miesiąc i rok na jaki chcemy wygenerować zestawienie . Skrypt pomija weekendy. Nie pomija świąt wypadających w środku tygodnia.
-3) Wybieramy pensum
-4)   Kilkamy wstaw przydział tygodniowy
-5) Pokazą się się pola gdzie wpisujemy dzienny przydział godzin . Pensum dzienne juz jest wstawione .
-Przyciskiem "+"  lub "-"  na zmieniać wartości liczbowe. Ponadto monzna wejść do kadego z pól i z klawiatury wpisać dowolną liczbę.
-6) Kilkamy zastosuj zmiany.
-7) Pojawi się zestawienie
-8) Kilkamy "Generuj PDF"
-9) Klikamy "Pobierz raport PDF"
+# 🕒 Skrypt do wyznaczania liczby godzin nadliczbowych
+Instrukcja obsługi
+
+1) Podaj imię i nazwisko.
+
+2) Wybierz miesiąc i rok, dla których chcesz wygenerować zestawienie.
+Skrypt pomija weekendy, ale nie pomija świąt wypadających w środku tygodnia.
+
+3) Wybierz pensum.
+
+4) Wpisz przydział tygodniowy.
+
+5) Kliknij „Wstaw przydział tygodniowy”.
+
+6) Pojawią się pola z wypełnionymi godzinami i pensum.
+
+    - Wartości te można dowolnie zmieniać.
+
+    - Przydział tygodniowy można edytować w każdej chwili, ale każdorazowo należy zatwierdzić przyciskiem „Wstaw przydział tygodniowy”.
+
+    - Przyciski „+” i „–” pozwalają zmieniać wartości liczbowe.
+
+    - Można też kliknąć w pole i wpisać liczbę z klawiatury.
+
+7) Kliknij „Zastosuj zmiany”.
+
+   - Pojawi się zestawienie godzin.
+
+8) Kliknij „Generuj PDF”.
+
+9) Na końcu wybierz „Pobierz raport PDF”.
